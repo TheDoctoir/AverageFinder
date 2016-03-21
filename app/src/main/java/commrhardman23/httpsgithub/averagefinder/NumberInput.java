@@ -37,7 +37,7 @@ public class NumberInput extends AppCompatActivity {
     public void addNumToArray(View vw){
 
         //converts the text entered by the user into a double
-        double userInput = Double.parseDouble(edtxtUserNumber.toString());
+        double userInput = Double.parseDouble(edtxtUserNumber.getText().toString());
 
         //must check to make sure we haven't added too many numbers yet
         if(numElementsAdded < numbersToAverage.length) {
