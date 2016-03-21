@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AverageFinder</string>
+    <string name="add_number_prompt">Please Type A Number To Add</string>
+    <string name="add_button_title">Enter</string>
+    <string name="calc_button_title">Calculate Average</string>
+    <string name="prelim_average">The average of the numbers is:</string>
+</resources>
