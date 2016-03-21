@@ -76,7 +76,7 @@ public class NumberInput extends AppCompatActivity {
         double average = calcAverage();
 
         //displays the calculated average received from the calcAverage method
-        txtvwResult.setText("The average of the numbers is: " + average);
+        txtvwAverage.setText("The average of the numbers is: " + average);
 
     }
 
